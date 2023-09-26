@@ -1,0 +1,230 @@
+
+
+.menu {
+
+   border:0%;
+   padding: 10px;
+   margin: 0%;
+   position: fixed;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: none;
+    width: 100%;
+    top: 0;
+    
+    
+}
+
+.titular {
+    
+    font-family: fantasy;
+    font-size: 100px;
+    color: white;
+    justify-content: center;
+    padding-left: 50px;
+    margin-left: 250px;
+    padding-top: 50px;
+    
+
+
+}
+
+.portfolio {
+
+    font-family: fantasy;
+    font-size: 100px;
+    color: white;
+    justify-content: center;
+    padding-left: 50px;
+    margin-left: 250px;
+    padding-top: 50px;
+    
+
+}
+
+
+.black {
+
+    background-color: black;
+    @media screen and (min-width: 480px) {
+       
+    }
+   
+}
+
+.foto1 {
+
+    padding-left: 250px;
+}
+
+ul {
+        padding-top: 0%;
+      list-style-type: none;
+      background-color: lightgrey;
+    padding-left: 50px;
+    @media screen and (min-width: 480px) {
+        padding-left: 300px;
+    }
+}
+
+li {
+
+  
+    display: inline;
+    width: 5em;
+    
+   
+}
+
+
+
+
+h2 {
+
+    padding-top: 50px;
+    font-family: fantasy;
+    font-size: 100px;
+    padding-left: 200px;
+    color: black
+    justify-content: center;
+    @media screen and (min-width: 480px) 
+
+}
+
+h3 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    color:white;
+}
+
+
+.landing {
+
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    padding-left: 250px;
+    @media screen and (min-width: 480px) {
+       
+    }
+   
+}
+
+a {
+    color: black;
+    padding: 0 4px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    
+    background-color: white;
+    color: grey;
+
+}
+
+article {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    @media screen and (min-width: 480px) {
+       
+    }
+}
+
+.biografia {
+
+    padding-top: 0%;
+    max-width: 70%;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.videostudio {
+
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding-left: 300px;
+}
+
+.titulos {
+
+    padding-left: 250px;
+    font-size: x-large;
+}
+.chipiron {
+    border: solid white; 
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin-left: 300px;
+}
+
+.extremoduro {
+    border: solid white; 
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin-left: 300px;
+}
+
+.leiva {
+
+    border: solid white; 
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    color:white;  
+    margin-left: 300px;
+}
+
+
+.fotoformulario {
+
+   padding-right: 100px;
+    @media screen and (min-width: 480px) {
+      
+    }
+}
+
+.formulario {
+
+    padding-top: 0%;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 150px;
+    @media screen and (min-width: 480px) {
+      
+    }
+
+}
+
+.componentes {
+
+    display: flex;
+    flex-direction: column;
+    color:black;
+    padding-left: 300px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.liantes {
+
+    padding-left: 350px;
+}
+@media (max-width: 850px){
+
+    .menu, .titular, .portfolio, .black, ul, li, h2, h3, .landing, article, .biografia, .videostudio, .titulos, .chipiron, .extremoduro, .leiva, .formulario, 
+    .componentes, .liantes{
+    font-size: small;
+       margin: 0%
+       padding: auto
+    
+        
+    }
+
+}

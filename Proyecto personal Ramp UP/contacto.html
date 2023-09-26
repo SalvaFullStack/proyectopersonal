@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="../biografia.html">Biografía</a></li>
+          <li><a href="../portfolio.html">Portfolio</a></li>
+          <li><a href="../contacto.html">Contacto</a></li>
+          <li><a href="./componentes.html">Componentes</a></li>
+          </ul>
+      </nav>
+    <section class="formulario">
+      <div class="fotoformulario"><img max width="700px"; src="./assets/Brasas-modified.jpg" Alt="El niño brasas Tukaro"></div>
+     <form>
+        <ol>
+            <fieldset>
+                <legend><b>Cuéntanos lo que necesitas</b></legend>
+           <label for="name">Nombre:</label>
+           <input type="text" id="name" name="user_name"
+           autofocus placeholder="escribe aquí.." ></input>
+            </li>
+         <li>
+           <label for="Lname">Apellidos:</label>
+           <input type="text" id="Lname" name="user_lname"
+           autofocus placeholder="escribe aquí.."><br>
+           </li>
+         <br>
+         <li>
+            <label for="tipoevento">Tipo de evento</label>
+            <br>
+            <input type="radio" name="tipoevento" value="wedding">Boda<br>
+            <input type="radio" name="tipoevento" value="feria"> Feria<br>
+            <input type="radio" name="tipoevento" value="party"> Fiesta privada<br>
+            <input type="radio" name="tipoevento" value="corporative"> Evento corporativo<br>
+            <input type="radio" name="tipoevento" value="other"> Otro<br>
+          </li>
+        <br>
+        <br>
+        <li>
+            <label for="extra-information">¿Alguna información adicional?</label>
+            <input type="textarea" name="extra-information" autofocus placeholder="escribe aquí.."><br>
+        </li>
+        <br>
+       ¡Cuéntanos cómo contactarte!
+        <br><br>
+        <li>
+            <label for="email">Correo electrónico</label>
+            <input type="email" name="email" autofocus placeholder="escribe aquí.."><br> 
+        </li>
+        <br>
+        <li>
+        <label for="telephone">Teléfono</label>
+        <input type="tel" id="telephone" name="telephone" autofocus placeholder="escribe aquí.."><br>
+        </li>
+        <br>
+        <input id="borrar" type="reset" value="Borrar datos :( ">
+        <input id="enviar" type="submit" value="Enviar datos :)"> 
+        </section>
+        </ol>
+        </fieldset>
+        </form>
+</body>
+</html>
